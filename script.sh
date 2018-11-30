@@ -3,10 +3,12 @@
 
 echo "Running Clean Your Mac Script 💛"
 
+echo -n "Do you want to perform Brew 🍺 tasks(y/n)? "
+read answer
 
+if [ "$answer" != "${answer#[Yy]}" ] ;then
 #Updating brew
-echo "Updating Brew 🍺 and Cleaning up the Cask 🌊 ........"
-
+echo "Updating Brew 🍺 and Cleaning up the Cask 🌊. This might take some time depending upon the network connecctions and packages installed."
 brew update
 brew cask update
 brew upgrade
@@ -14,6 +16,7 @@ brew cleanup
 brew cask cleanup
 brew doctor 
 
+fi
 
 #user cache file
 echo "Cleaning user cache file from ~/Library/Caches"
