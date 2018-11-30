@@ -13,6 +13,6 @@ Locate the folder which contains the script and Run the following command in ter
 
 ## Credits
 
-This script was primarily developed based on the stackoverflow posts [[1](https://stackoverflow.com/questions/7688614/osx-shell-script-deleting-all-desktop-files)],[[2](https://stackoverflow.com/questions/51718727/mac-shell-script-to-delete-files)] and this [github project](https://github.com/ajkblue/clean-my-mac/blob/master/clean_my_mac.sh).
+This script was primarily developed based on the stackoverflow posts [[1](https://stackoverflow.com/questions/7688614/osx-shell-script-deleting-all-desktop-files)],[[2](https://stackoverflow.com/questions/51718727/mac-shell-script-to-delete-files)] and this [github project](https://github.com/ajkblue/clean-my-mac/).
 
 Please do make a PR if you can add anything into this project.
