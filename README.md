@@ -8,6 +8,7 @@ This bash script was primarily built to clean up the chunks of files that has be
 
 ---
 
+![Running the Script in the terminal.](#)
 Locate the folder which contains the script and Run the following command in terminal in that folder.(Better Copy the script into the disk)
 
 `sh script.sh`
