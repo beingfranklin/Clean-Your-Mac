@@ -8,7 +8,7 @@ read answer
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
 #Updating brew
-echo "Updating Brew 🍺 and Cleaning up the Cask 🌊. This might take some time depending upon the network connecctions and packages installed."
+echo "Updating Brew 🍺 and Cleaning up the Cask 🌊. This might take some time depending upon the network connections and packages installed."
 brew update
 brew cask update
 brew upgrade
