@@ -7,7 +7,7 @@ This bash script was primarily built to clean up the chunks of files that has be
 ## Script Usage
 
 ![Running the Script in the terminal.](https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/screenshots/Running%20Script.png)
-Locate the folder which contains the script and Run the following command in terminal in that folder.(Better Copy the script into the disk)
+Locate the folder which contains the script and Run the following command in terminal in that folder.(Better to Copy the script into the disk)
 
 `sh script.sh`
 
