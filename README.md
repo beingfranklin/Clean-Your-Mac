@@ -11,8 +11,18 @@ Locate the folder which contains the script and Run the following command in ter
 
 `sh script.sh`
 
+#### To run it directly
+
+Its an interactive script which requires root access. 
+`sudo su -c "bash <(wget -qO- http://website.com/my-script.sh)" root`
+
 ## Credits
 
-This script was primarily developed based on the stackoverflow posts [[1](https://stackoverflow.com/questions/7688614/osx-shell-script-deleting-all-desktop-files)],[[2](https://stackoverflow.com/questions/51718727/mac-shell-script-to-delete-files)] and this [github project](https://github.com/ajkblue/clean-my-mac/).
+This script was primarily developed based on the stackoverflow posts.
+
+* For root access- interactive script [[1](https://serverfault.com/questions/226386/wget-a-script-and-run-it)] 
+* [[2](https://stackoverflow.com/questions/7688614/osx-shell-script-deleting-all-desktop-files)]
+* [[3](https://stackoverflow.com/questions/51718727/mac-shell-script-to-delete-files)] 
+* and this [github project](https://github.com/ajkblue/clean-my-mac/).
 
 Please do make a PR if you can add anything into this project.
