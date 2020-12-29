@@ -15,7 +15,7 @@ Locate the folder which contains the script and Run the following command in ter
 
 Its an interactive script which requires root access. 
 
-`sudo su -c "bash <(wget -qO- http://website.com/my-script.sh)" root`
+`sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/script.sh)" root`
 
 ## Credits
 
