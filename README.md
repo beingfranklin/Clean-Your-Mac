@@ -17,7 +17,7 @@ Its an interactive script which requires root access.
 All contributions are welcome.
 
 ![Running the Script in the terminal.](https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/screenshots/Running%20Script.png)
-You can get it up and running locally by doing the following. Locate the folder which contains the script and Run the following command in terminal in that folder.(Better to Copy the script into the disk)
+You can get it up and running locally by doing the following. Locate the folder which contains the script and Run the following command in terminal in that folder.
 
 `sh script.sh`
 
