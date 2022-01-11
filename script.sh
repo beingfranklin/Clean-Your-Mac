@@ -28,7 +28,7 @@ sudo rm -rf ~/Library/logs/*
 echo "✅ Done Cleaning from ~/Library/logs"
 #user preference log
 echo "Cleaning user preference logs"
-#rm -rf ~/Library/Preferences/*
+rm -rf ~/Library/Preferences/*
 echo "✅ Done Cleaning from /Library/Preferences"
 #system caches
 echo "Cleaning system caches"
