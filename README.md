@@ -4,7 +4,7 @@
 
 This bash script was primarily built to clean up the chunks of files that has been clogging your Mac's memory.
 
-#### How to run
+## How to run
 
 Its an interactive script which requires root access. 
 
@@ -12,7 +12,7 @@ Its an interactive script which requires root access.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/script.sh)"
 ```
 
-## Contribution
+## Contributing
 
 All contributions are welcome.
 
