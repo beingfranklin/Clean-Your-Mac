@@ -4,18 +4,22 @@
 
 This bash script was primarily built to clean up the chunks of files that has been clogging your Mac's memory.
 
-## Script Usage
-
-![Running the Script in the terminal.](https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/screenshots/Running%20Script.png)
-Locate the folder which contains the script and Run the following command in terminal in that folder.(Better to Copy the script into the disk)
-
-`sh script.sh`
-
-#### To run it directly
+#### How to run
 
 Its an interactive script which requires root access. 
 
-`sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/script.sh)" root`
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/script.sh)"
+```
+
+## Contribution
+
+All contributions are welcome.
+
+![Running the Script in the terminal.](https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/screenshots/Running%20Script.png)
+You can get it up and running locally by doing the following. Locate the folder which contains the script and Run the following command in terminal in that folder.(Better to Copy the script into the disk)
+
+`sh script.sh`
 
 ## Credits
 
